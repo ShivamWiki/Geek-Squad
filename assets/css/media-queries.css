@@ -654,8 +654,7 @@
   }
 }
 
-/* 1024px */
-/* 
+/* ======================================================================= */ 
 @media screen and (max-width: 1024px) {
   .nav-toggle {
     display: block;
@@ -700,4 +699,4 @@
     justify-content: center;
   }
 
-*/
+
