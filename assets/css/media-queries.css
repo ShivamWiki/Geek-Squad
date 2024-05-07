@@ -96,6 +96,8 @@
   .header-right-img {
     width: 350px;
   }
+
+  /*  =============================================  */
   /* Experience Start */
   .experience-with {
     text-align: center;
@@ -108,55 +110,46 @@
     justify-content: center;
   }
   /* Experience End */
+  /*  =============================================  */
 
-  /* coordinator Start */
-  .coordinator h2 {
-    color: aliceblue;
-    text-align: center;
-    font-family: "Amaranth", sans-serif;
-    /* font-family: "Kanit", sans-serif; */
-    font-size: 3.2em;
-    font-weight: 400;
-    margin: 10px;
-  }
-  .coordinator-main {
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-  .coordinator-child {
+  /* About Us CSS Start */
+  .about-heading-left {
+    height: 620px;
+    width: 420px;
     background-color: #181628;
-    width: 320px;
-    height: 340px;
-    border-radius: 8px;
-    border: 0.2px solid #0c225a;
+    border-radius: 20px;
+    margin: 20px;
   }
-
-  .coordinator-child img {
-    width: 70%;
-    border-radius: 7px;
-    margin: 15px 45px;
-    border: 1px solid #f9f8ff;
-  }
-  coordinator-child h3 {
-    color: aliceblue;
-    text-align: center;
-    font-family: "Kanit", sans-serif;
-    font-size: 2em;
-    font-weight: 400;
-  }
-  .coordinator-social-media img {
-    border: none !important;
-  }
-
-  .coordinator-social-media a {
-    max-width: 21%;
-  }
-  #coordinator-class {
+  #about-devstack {
     padding-top: 100px; /* Replace 60px with the height of your navbar */
     margin-top: -100px; /* Replace 60px with the height of your navbar */
   }
+  .about-heading-left h2 {
+    text-align: center;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Amaranth", sans-serif;
+    font-size: 2.4em;
+    font-weight: 400;
+    margin-top: 10px;
+    /* padding: 5px; */
+  }
 
+  .about-heading-left p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: rgb(197, 191, 191);
+    padding: 5px 13px;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+  /* About Us CSS End */
+
+  /* ============================================= */
+
+  /* Events CSS Start */
   #event-section {
     padding-top: 100px; /* Replace 60px with the height of your navbar */
     margin-top: -100px; /* Replace 60px with the height of your navbar */
@@ -216,11 +209,9 @@
     font-family: "Kanit", sans-serif;
     font-weight: 400;
   }
-  #event-section {
-    padding-top: 100px; /* Replace 60px with the height of your navbar */
-    margin-top: -100px; /* Replace 60px with the height of your navbar */
-  }
   /* Events CSS End */
+
+  /* ============================================= */
 
   .skills-main {
     gap: 50px;
@@ -234,37 +225,6 @@
     border-radius: 10px;
     flex-direction: column;
     gap: 0px;
-  }
-  .about-heading-left {
-    height: 620px;
-    width: 420px;
-    background-color: #181628;
-    border-radius: 20px;
-    margin: 20px;
-  }
-  #about-devstack {
-    padding-top: 100px; /* Replace 60px with the height of your navbar */
-    margin-top: -100px; /* Replace 60px with the height of your navbar */
-  }
-  .about-heading-left h2 {
-    text-align: center;
-    color: aliceblue;
-    text-align: center;
-    font-family: "Amaranth", sans-serif;
-    font-size: 2.4em;
-    font-weight: 400;
-    margin-top: 10px;
-    /* padding: 5px; */
-  }
-
-  .about-heading-left p {
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-size: 1.3em;
-    color: rgb(197, 191, 191);
-    padding: 5px 13px;
-    font-weight: 400;
-    line-height: 1.3;
   }
 
   /* Girls Program CSS Start */
@@ -577,7 +537,7 @@
   }
   /* HackaThon CSS END */
 
-  /* Footer Start */
+  /* ======================================================================= */
 
   /* PODCAST CSS Start */
 
@@ -647,7 +607,56 @@
   }
 
   /* ======================================================================= */
+  /* coordinator CSS Start */
+  .coordinator h2 {
+    color: aliceblue;
+    text-align: center;
+    font-family: "Amaranth", sans-serif;
+    /* font-family: "Kanit", sans-serif; */
+    font-size: 3.2em;
+    font-weight: 400;
+    margin: 10px;
+  }
+  .coordinator-main {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .coordinator-child {
+    background-color: #181628;
+    width: 320px;
+    height: 340px;
+    border-radius: 8px;
+    border: 0.2px solid #0c225a;
+  }
 
+  .coordinator-child img {
+    width: 70%;
+    border-radius: 7px;
+    margin: 15px 45px;
+    border: 1px solid #f9f8ff;
+  }
+  coordinator-child h3 {
+    color: aliceblue;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+  }
+  .coordinator-social-media img {
+    border: none !important;
+  }
+
+  .coordinator-social-media a {
+    max-width: 21%;
+  }
+  #coordinator-class {
+    padding-top: 100px; /* Replace 60px with the height of your navbar */
+    margin-top: -100px; /* Replace 60px with the height of your navbar */
+  }
+  /* Coordinator CSS End */
+
+  /* ======================================================================= */
   .footer-content {
     background-color: #181628;
     color: aliceblue;
